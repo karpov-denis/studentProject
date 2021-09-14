@@ -49,15 +49,15 @@ namespace TestingApp
 
                     Content = new StackLayout
                     {
-                        Margin = new Thickness(10),
-                        Spacing = 0,
+                        Margin = new Thickness(5),
+                        Spacing = 1,
                         Orientation = StackOrientation.Horizontal,
                         HorizontalOptions = LayoutOptions.EndAndExpand,
                         Children =
                         {
-                             new Label() { Text = element.parentFolderName+"/"+element.getCameraName+", " },
-                             new Label() { Text = Sound +", " },
-                             new Label() { Text =" Renderer :" },
+                             new Label() { Text = element.parentFolderName+"/"+element.getCameraName },
+                             new Label() { Text = Sound },
+                             new Label() { Text ="Renderer:" },
                              Cam.SetCheckBox
                              
 
